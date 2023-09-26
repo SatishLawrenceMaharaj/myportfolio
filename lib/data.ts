@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import todoimg from "@/public/todo.jpg";
+import todomobileimg from "@/public/todomobile.jpg";
 import hhImg from "@/public/hh.jpg";
 import chatappImg from "@/public/myapp.jpg";
 import interviewpImg from "@/public/interview.jpg";
@@ -120,6 +121,15 @@ export const projectsData = [
         imageUrl: todoimg,
         git: "https://github.com/SatishLawrenceMaharaj/todo",
         url: "https://todo-alpha-five.vercel.app/",
+    },
+    {
+        title: "ToDo Mobile",
+        description:
+            "I worked as a full-stack developer on this project for fun. Its a personal project from which I can add events I need to do via mobile application.",
+        tags: ["Flutter"],
+        imageUrl: todomobileimg,
+        git: "https://github.com/SatishLawrenceMaharaj/flutter-todo-app",
+        url: "https://github.com/SatishLawrenceMaharaj/flutter-todo-app",
     },
     {
         title: "ChatApp",

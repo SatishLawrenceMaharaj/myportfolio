@@ -109,8 +109,8 @@ export const projectsData = [
             "A platform to faciitate the displaying of my knoleadge and skills.",
         tags: ["React", "Next.js", "Tailwind", "Prisma", "Vercel"],
         imageUrl: portfolioImg,
-        git: "https://github.com/SatishLawrenceMaharaj",
-        url: "https://github.com/SatishLawrenceMaharaj",
+        git: "https://github.com/SatishLawrenceMaharaj/myportfolio",
+        url: "https://satishmaharaj.vercel.app/",
     },
     {
         title: "ToDo",

@@ -44,7 +44,7 @@ export const experiencesData = [
         title: "University of the West Indies - AP",
         location: "St. Augustine",
         description:
-            "During this period of time, I am tasked with building courses for the Univeristy, maintaining databases, and building niche software.",
+            "During this period of time, I am tasked with building courses for the University, maintaining databases, and building niche software.",
         icon: React.createElement(FaReact),
         date: "October 2023 - Present",
     },
@@ -52,7 +52,7 @@ export const experiencesData = [
         title: "Hibiscus Health - Full-Stack Software Developer | Software Engineer",
         location: "New York",
         description:
-            "During this period of time, I was tasked with building the company's web platform and mobile applucation to facilitate the trade of healthy meals.",
+            "During this period of time, I was tasked with building the company's web platform and mobile application to facilitate the trade of healthy meals.",
         icon: React.createElement(CgWorkAlt),
         date: "May 2023 - September 2023",
     },
@@ -60,7 +60,7 @@ export const experiencesData = [
         title: "Computer Science (Special)",
         location: "University of the West Indies St. Augustine",
         description:
-            "I graduated with a First Class Honors in Computer Science (Special) after 3 years of studying and doing internships to build my knowledge.",
+            "I graduated with a First-Class Honors in Computer Science (Special) after 3 years of studying and doing internships to build my knowledge.",
         icon: React.createElement(LuGraduationCap),
         date: "2020-2023",
     },
@@ -68,7 +68,7 @@ export const experiencesData = [
         title: "Carigro - Student Developer",
         location: "St. Augustine",
         description:
-            "During this period I was tasked with building a web platform for the Carigro to facilitate the trade of goods and services of farmers in St. Vincent.",
+            "During this period, I was tasked with building a web platform for Carigro to facilitate the trade of goods and services of farmers in St. Vincent.",
         icon: React.createElement(CgWorkAlt),
         date: "January 2023 - May 2023",
     },
@@ -76,7 +76,7 @@ export const experiencesData = [
         title: "Republic Bank | RFHL - ITMD Graduate Intern",
         location: "Trincity",
         description:
-            "During this internship I was tasked with building a niche system for the Republic Financial Holdings Limited Group known as the ERS.",
+            "During this internship, I was tasked with building a niche system for the Republic Financial Holdings Limited Group known as the ERS.",
         icon: React.createElement(CgWorkAlt),
         date: "May 2022 - August 2022",
     },
@@ -84,7 +84,7 @@ export const experiencesData = [
         title: "Freelance Developer",
         location: "Princes Town",
         description:
-            "From an early age I was interested in software development. During this time I applied my knowleadge from high school, university and Youtube to build web applications for local businesses.",
+            "From an early age, I was interested in software development. During this time, I applied my knowledge from high school, university, and YouTube to build web applications for local businesses.",
         icon: React.createElement(CgWorkAlt),
         date: "2018 - 2022",
     },
@@ -96,18 +96,13 @@ export const experiencesData = [
         icon: React.createElement(LuGraduationCap),
         date: "2013 - 2020",
     },
-
-
-
-
-
 ] as const;
 
 export const projectsData = [
     {
         title: "Personal Portfolio",
         description:
-            "A platform to faciitate the displaying of my knoleadge and skills.",
+            "A platform to facilitate the displaying of my knowledge and skills.",
         tags: ["React", "Next.js", "Tailwind", "Prisma", "Vercel"],
         imageUrl: portfolioImg,
         git: "https://github.com/SatishLawrenceMaharaj/myportfolio",
@@ -116,8 +111,8 @@ export const projectsData = [
     {
         title: "ToDo",
         description:
-            "I worked as a full-stack developer on this project for fun. Its a personal project from which I can add events I need to do.",
-        tags: ["React", "Next.js", "Postgresql", "Tailwind", "Prisma", "Vercel"],
+            "I worked as a full-stack developer on this project for fun. It's a personal project from which I can add events I need to do.",
+        tags: ["React", "Next.js", "PostgreSQL", "Tailwind", "Prisma", "Vercel"],
         imageUrl: todoimg,
         git: "https://github.com/SatishLawrenceMaharaj/todo",
         url: "https://todo-alpha-five.vercel.app/",
@@ -125,7 +120,7 @@ export const projectsData = [
     {
         title: "ToDo Mobile",
         description:
-            "I worked as a full-stack developer on this project for fun. Its a personal project from which I can add events I need to do via mobile application.",
+            "I worked as a full-stack developer on this project for fun. It's a personal project from which I can add events I need to do via mobile application.",
         tags: ["Flutter"],
         imageUrl: todomobileimg,
         git: "https://github.com/SatishLawrenceMaharaj/flutter-todo-app",
@@ -134,8 +129,8 @@ export const projectsData = [
     {
         title: "ChatApp",
         description:
-            "A web platform I orked on as a full stack project for fun. It allows users to login and post messages to a board to interact.",
-        tags: ["PHP", "Laravel", "CSS", "MYSQL"],
+            "A web platform I worked on as a full-stack project for fun. It allows users to log in and post messages to a board to interact.",
+        tags: ["PHP", "Laravel", "CSS", "MySQL"],
         imageUrl: chatappImg,
         git: "https://github.com/SatishLawrenceMaharaj/myapplication",
         url: "https://github.com/SatishLawrenceMaharaj/myapplication",
@@ -143,8 +138,8 @@ export const projectsData = [
     {
         title: "JavaApp",
         description:
-            "A Java JSP and Servlet app connected to a MySQL database. Users are allowed to login/register then they can find the sum of any to numbers.",
-        tags: ["JAVA", "Servlet", "JSP", "MYSQL"],
+            "A Java JSP and Servlet app connected to a MySQL database. Users are allowed to log in/register, then they can find the sum of any two numbers.",
+        tags: ["Java", "Servlet", "JSP", "MySQL"],
         imageUrl: interviewpImg,
         git: "https://github.com/SatishLawrenceMaharaj/javainterviewapp",
         url: "https://github.com/SatishLawrenceMaharaj/javainterviewapp",
@@ -161,17 +156,17 @@ export const projectsData = [
     {
         title: "Carigro",
         description:
-            "A web platform for the St. Vincent company Carigro to faciitate the trade of goods and services of local farmers.",
-        tags: ["Flask MVC", "Svelte", "Postgresql", "Tailwind", "imagedb", "Vercel", "Render"],
+            "A web platform for the St. Vincent company Carigro to facilitate the trade of goods and services of local farmers.",
+        tags: ["Flask MVC", "Svelte", "PostgreSQL", "Tailwind", "imagedb", "Vercel", "Render"],
         imageUrl: carigroImg,
         git: "https://github.com/SatishLawrenceMaharaj/sveltekit",
         url: "https://carigro.vercel.app/",
     },
     {
-        title: "Republic Bank Employee Recognation System",
+        title: "Republic Bank Employee Recognition System",
         description:
-            "A platform for Republic Bank to faciitate internal operations such as promoting employees or events in the form of campaigns.",
-        tags: ["Flask MVC", "Svelte", "MySql", "Tailwind", "IIS"],
+            "A platform for Republic Bank to facilitate internal operations such as promoting employees or events in the form of campaigns.",
+        tags: ["Flask MVC", "Svelte", "MySQL", "Tailwind", "IIS"],
         imageUrl: rblImg,
         git: "https://github.com/SatishLawrenceMaharaj",
         url: "https://github.com/SatishLawrenceMaharaj",
@@ -179,8 +174,8 @@ export const projectsData = [
     {
         title: "Covid-19 Tracker",
         description:
-            "A platform to faciitate the tracking of Covid-19 stats.",
-        tags: ["Flask MVC", "Materalize", "Postgres", "Heroku"],
+            "A platform to facilitate the tracking of Covid-19 stats.",
+        tags: ["Flask MVC", "Materialize", "PostgreSQL", "Heroku"],
         imageUrl: covidImg,
         git: "https://github.com/SatishLawrenceMaharaj/covid-19-tracker",
         url: "https://github.com/SatishLawrenceMaharaj/covid-19-tracker",

@@ -11,6 +11,7 @@ import carigroImg from "@/public/carigro.jpg";
 import rblImg from "@/public/rbl.png";
 import covidImg from "@/public/CovidTracker.png";
 import portfolioImg from "@/public/portfolio.jpg";
+import calendarimg from "@/public/calendar.jpg"
 
 export const links = [
     {
@@ -125,6 +126,15 @@ export const projectsData = [
         imageUrl: todomobileimg,
         git: "https://github.com/SatishLawrenceMaharaj/flutter-todo-app",
         url: "https://github.com/SatishLawrenceMaharaj/flutter-todo-app",
+    },
+    {
+        title: "Calendar Mobile",
+        description:
+            "I worked as a full-stack developer on this project for fun. It's a personal project from which I can have a custom calendlar.",
+        tags: ["Flutter"],
+        imageUrl: calendarimg,
+        git: "https://github.com/SatishLawrenceMaharaj/flutter_calendar",
+        url: "https://github.com/SatishLawrenceMaharaj/flutter_calendar",
     },
     {
         title: "ChatApp",

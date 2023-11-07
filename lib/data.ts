@@ -42,12 +42,20 @@ export const links = [
 
 export const experiencesData = [
     {
+        title: "Republic Bank - Programmer",
+        location: "Trincity",
+        description:
+            "During this period of time, I am in the Production Support - Programming Department.",
+        icon: React.createElement(FaReact),
+        date: "November 2023 - Present",
+    },
+    {
         title: "University of the West Indies - AP",
         location: "St. Augustine",
         description:
             "During this period of time, I am tasked with building courses for the University, maintaining databases, and building niche software.",
-        icon: React.createElement(FaReact),
-        date: "October 2023 - Present",
+        icon: React.createElement(CgWorkAlt),
+        date: "September 2023 - November 2023",
     },
     {
         title: "Hibiscus Health - Full-Stack Software Developer | Software Engineer",

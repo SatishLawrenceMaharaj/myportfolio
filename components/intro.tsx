@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import portfolioImg from "@/public/profile.jpg";
 
 export default function Intro() {
     const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +32,7 @@ export default function Intro() {
                         }}
                     >
                         <Image
-                            src="https://media.licdn.com/dms/image/D4E03AQFXpF1Lm1nSBw/profile-displayphoto-shrink_800_800/0/1686178763712?e=1701302400&v=beta&t=rm9VBxu7XDW5x_CZvG6YpIXJUHFFXSR6L4U5aYknImw"
+                            src={portfolioImg}
                             alt="Satish Maharaj"
                             width="192"
                             height="192"

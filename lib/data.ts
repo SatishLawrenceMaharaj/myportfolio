@@ -50,6 +50,14 @@ export const experiencesData = [
         date: "November 2023 - Present",
     },
     {
+        title: "Software Engineer - Freelance",
+        location: "Princes Town",
+        description:
+            "Projects for companies.",
+        icon: React.createElement(CgWorkAlt),
+        date: "September 2023 - Present",
+    },
+    {
         title: "University of the West Indies - AP",
         location: "St. Augustine",
         description:
@@ -90,12 +98,12 @@ export const experiencesData = [
         date: "May 2022 - August 2022",
     },
     {
-        title: "Freelance Developer",
+        title: "Software Engineer - Freelance",
         location: "Princes Town",
         description:
             "From an early age, I was interested in software development. During this time, I applied my knowledge from high school, university, and YouTube to build web applications for local businesses.",
         icon: React.createElement(CgWorkAlt),
-        date: "2018 - 2022",
+        date: "2017 - 2022",
     },
     {
         title: "High School | Secondary School",

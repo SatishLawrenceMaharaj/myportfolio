@@ -42,28 +42,84 @@ export const links = [
 
 export const experiencesData = [
     {
+        title: "Republic Bank - DevOps Engineer",
+        location: "Trincity",
+        description:
+            "During this period of time, I am the main local AWS DevOps Engineer for Republic Bank, responsible for managing the various DevOps teams across the world and looking out for the company's best interest.",
+        icon: React.createElement(FaReact),
+        date: "November 2024 - Present",
+    },
+    {
+        title: "Software Engineer - Cenedex Software Solutions",
+        location: "California, United States",
+        description:
+            "Building various mobile and web projects for stakeholders.",
+        icon: React.createElement(CgWorkAlt),
+        date: "September 2024 - Present",
+    },
+    {
+        title: "DevOps Engineer - Cenedex Software Solutions",
+        location: "California, United States",
+        description:
+            "Building the infrastructure for mobile and web projects.",
+        icon: React.createElement(CgWorkAlt),
+        date: "September 2024 - Present",
+    },
+    {
+        title: "Senior Software Engineer - RoseDev Solutions",
+        location: "Trincity",
+        description:
+            "Building various mobile and web projects for stakeholders while managing the software engineering team.",
+        icon: React.createElement(CgWorkAlt),
+        date: "September 2024 - Present",
+    },
+    {
+        title: "Republic Bank - Systems Analyst",
+        location: "Trincity",
+        description:
+            "During this period of time, I ensure the bank's software, servers and critical systems ran smoothly with out any issues. This involved building code, reports(ETL tools) and managing of systems.",
+        icon: React.createElement(FaReact),
+        date: "May 2024 - November 2024",
+    },
+    {
         title: "Republic Bank - Programmer",
         location: "Trincity",
         description:
-            "During this period of time, I am in the Production Support - Programming Department.",
+            "During this period of time, I was in the Production Support - Programming Department. Frequently building software and reports(ETL tools).",
         icon: React.createElement(FaReact),
-        date: "November 2023 - Present",
+        date: "November 2023 - May 2024",
     },
     {
-        title: "Software Engineer - Freelance",
-        location: "Princes Town",
+        title: "Software Engineer - RoseDev Solutions",
+        location: "Trincity",
         description:
-            "Projects for companies.",
+            "Building various mobile and web projects for stakeholders.",
         icon: React.createElement(CgWorkAlt),
-        date: "September 2023 - Present",
+        date: "August 2023 - September 2024",
     },
     {
-        title: "University of the West Indies - AP",
+        title: "University of the West Indies - Tutor/Marker",
         location: "St. Augustine",
         description:
-            "During this period of time, I am tasked with building courses for the University, maintaining databases, and building niche software.",
+            "During this period of time, I was tasked with marking and tutoring for courses such as Operating Systems, OOP and Theory of Computing.",
+        icon: React.createElement(CgWorkAlt),
+        date: "September 2023 - May 2024",
+    },
+    {
+        title: "University of the West Indies - Analytics- Process Mapping & Resource Mobilization",
+        location: "St. Augustine",
+        description:
+            "During this period of time, I was tasked with building courses for the University, maintaining databases, and building niche software.",
         icon: React.createElement(CgWorkAlt),
         date: "September 2023 - November 2023",
+    },
+    {
+        title: "Software Engineer - Mindwise Project",
+        location: "St. Augustine",
+        description:
+            "Building various mobile and web projects for stakeholders.",
+        icon: React.createElement(CgWorkAlt),
+        date: "January 2024 - May 2024",
     },
     {
         title: "Hibiscus Health - Full-Stack Software Developer | Software Engineer",
@@ -82,7 +138,7 @@ export const experiencesData = [
         date: "2020-2023",
     },
     {
-        title: "Carigro - Student Developer",
+        title: "Carigro - Junior Software Developer",
         location: "St. Augustine",
         description:
             "During this period, I was tasked with building a web platform for Carigro to facilitate the trade of goods and services of farmers in St. Vincent.",
